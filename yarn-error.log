@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Users\kakeh\AppData\Local\Volta\tools\image\node\16.13.0\node.exe C:\Users\kakeh\AppData\Local\Volta\tools\image\yarn\1.22.17\bin\yarn.js
+
+PATH: 
+  C:\Users\kakeh\Reiya\Project\Vue\vue-test\node_modules\.bin;C:\Users\kakeh\Reiya\Project\Vue\node_modules\.bin;C:\Users\kakeh\Reiya\Project\node_modules\.bin;C:\Users\kakeh\Reiya\node_modules\.bin;C:\Users\kakeh\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Users\kakeh\AppData\Local\Volta\tools\image\node\16.13.0;C:\Users\kakeh\AppData\Local\Volta\tools\image\npm\8.1.4\bin;C:\Users\kakeh\AppData\Local\Volta\tools\image\yarn\1.22.17\bin;C:\Users\kakeh\AppData\Local\Volta\tools\image\node\16.13.0;C:\Program Files\Volta\;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Users\kakeh\Reiya\VScode";C:\Program Files\gnuplot\bin;C:\Program Files\MATLAB\R2020a\runtime\win64;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\LLVM\bin;C:\Program Files\CMake\bin;C:\ProgramData\chocolatey\bin;C:\texlive\2020\bin\win32;C:\Lua\lua-5.4.0_Win64_bin;C:\Users\kakeh\AppData\Roaming\Python\Python38\site-packages;C:\Users\kakeh\Reiya\Code;C:\developer\web\nginx\nginx-1.17.9;C:\Program Files\Java\jdk-16\bin;C:\Program Files\Java\Library\JavaFX\gluon\javafx-sdk-16\bin;C:\Gradle\gradle-7.0\bin;C:\Users\kakeh\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Android\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Go\bin;C:\Users\kakeh\AppData\Local\Volta\bin;C:\Users\kakeh\.cargo\bin;C:\Users\kakeh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\kakeh\AppData\Local\Programs\Python\Python39\;C:\Users\kakeh\AppData\Local\Microsoft\WindowsApps;C:\texlive\2020\bin\win32;C:\Users\kakeh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kakeh\Reiya\VScode;C:\Program Files\heroku\bin;C:\Users\kakeh\AppData\Local;C:\Users\kakeh\AppData\Local\GitHubDesktop\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\MinGW\bin;C:\Program Files\LLVM\bin;C:\msys64\mingw64\bin;C:\msys64\usr\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\CMake;C:\Lua\lua-5.4.0_Win64_bin;C:\Users\kakeh\AppData\Roaming\Python\Python38\site-packages;C:\developer\web\nginx\nginx-1.17.9;C:\Program Files\Android\tools;C:\Program Files\uru-0.8.5-windows-x86;C:\Ruby\Ruby26-x64\bin;C:\Ruby\Ruby23-x64\bin;C:\Users\kakeh\AppData\Local\Microsoft\Wind
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\kakeh\AppData\Local\Volta\tools\image\yarn\1.22.17\lib\cli.js:141510:19)
+      at Object.onceWrapper (node:events:509:28)
+      at ClientRequest.emit (node:events:390:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:763:9)
+      at Object.onceWrapper (node:events:509:28)
+      at TLSSocket.emit (node:events:402:35)
+      at TLSSocket.Socket._onTimeout (node:net:501:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+    "name": "vue-test",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.5.0",
+      "@vue/cli-plugin-router": "~4.5.0",
+      "@vue/cli-plugin-eslint": "~4.5.0",
+      "@vue/cli-plugin-unit-jest": "~4.5.0",
+      "@vue/cli-plugin-e2e-cypress": "~4.5.0",
+      "@vue/cli-service": "~4.5.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
